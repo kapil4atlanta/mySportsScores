@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="sportsCarousalCellID" id="D0U-Kn-usc" customClass="sportsCarousalCell" customModule="mySports" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="135"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="135"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Scs-RV-V7K">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="135"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sport_carousel_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Dum-F4-Dl4">
+                                <rect key="frame" x="0.0" y="0.0" width="150" height="135"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uMo-Kf-e44" userLabel="gameLabel">
+                                <rect key="frame" x="0.0" y="7" width="150" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XOF-rD-nyr" userLabel="homeImage View">
+                                <rect key="frame" x="90" y="50" width="45" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="BJp-Rg-r8i"/>
+                                    <constraint firstAttribute="height" constant="40" id="iWa-mi-va0"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7h-5c-QMw" userLabel="awayScore">
+                                <rect key="frame" x="15" y="105" width="45" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="EWu-SL-p04"/>
+                                    <constraint firstAttribute="height" constant="20" id="ngb-c9-7Lf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eb1-Zr-KKg" userLabel="homeScore">
+                                <rect key="frame" x="90" y="105" width="45" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="5Ci-VS-TPM"/>
+                                    <constraint firstAttribute="height" constant="20" id="wc5-cW-1ny"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kMd-1V-Pya" userLabel="awayImage View">
+                                <rect key="frame" x="15" y="50" width="45" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="0Mv-hk-jtY"/>
+                                    <constraint firstAttribute="height" constant="40" id="JTS-M8-JI3"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Dum-F4-Dl4" firstAttribute="leading" secondItem="Scs-RV-V7K" secondAttribute="leading" id="3J1-2d-Jw1"/>
+                            <constraint firstAttribute="trailing" secondItem="uMo-Kf-e44" secondAttribute="trailing" id="6MW-dc-FOc"/>
+                            <constraint firstAttribute="trailing" secondItem="Dum-F4-Dl4" secondAttribute="trailing" id="9fj-st-iJ1"/>
+                            <constraint firstItem="kMd-1V-Pya" firstAttribute="leading" secondItem="Scs-RV-V7K" secondAttribute="leading" constant="15" id="APD-Rx-wwl"/>
+                            <constraint firstItem="x7h-5c-QMw" firstAttribute="top" secondItem="kMd-1V-Pya" secondAttribute="bottom" constant="15" id="N1a-0j-n5P"/>
+                            <constraint firstItem="Dum-F4-Dl4" firstAttribute="top" secondItem="Scs-RV-V7K" secondAttribute="top" id="PUY-FA-vbq"/>
+                            <constraint firstItem="XOF-rD-nyr" firstAttribute="top" secondItem="uMo-Kf-e44" secondAttribute="bottom" constant="25" id="Q0y-UV-MGk"/>
+                            <constraint firstItem="Dum-F4-Dl4" firstAttribute="leading" secondItem="Scs-RV-V7K" secondAttribute="leading" id="Tl8-Dj-Qon"/>
+                            <constraint firstItem="x7h-5c-QMw" firstAttribute="leading" secondItem="Scs-RV-V7K" secondAttribute="leading" constant="15" id="aa4-tt-EDa"/>
+                            <constraint firstAttribute="trailing" secondItem="eb1-Zr-KKg" secondAttribute="trailing" constant="15" id="apg-Bl-cxD"/>
+                            <constraint firstAttribute="bottom" secondItem="Dum-F4-Dl4" secondAttribute="bottom" id="hA0-iX-GHZ"/>
+                            <constraint firstAttribute="bottom" secondItem="Dum-F4-Dl4" secondAttribute="bottom" id="hnE-C9-PCc"/>
+                            <constraint firstItem="Dum-F4-Dl4" firstAttribute="top" secondItem="Scs-RV-V7K" secondAttribute="top" id="hwk-LL-VrS"/>
+                            <constraint firstItem="eb1-Zr-KKg" firstAttribute="top" secondItem="XOF-rD-nyr" secondAttribute="bottom" constant="15" id="nMC-Qi-aSW"/>
+                            <constraint firstAttribute="trailing" secondItem="XOF-rD-nyr" secondAttribute="trailing" constant="15" id="osF-8r-BX4"/>
+                            <constraint firstItem="kMd-1V-Pya" firstAttribute="top" secondItem="uMo-Kf-e44" secondAttribute="bottom" constant="25" id="pub-J5-SWE"/>
+                            <constraint firstItem="uMo-Kf-e44" firstAttribute="leading" secondItem="Scs-RV-V7K" secondAttribute="leading" id="yI1-4H-geP"/>
+                            <constraint firstItem="uMo-Kf-e44" firstAttribute="top" secondItem="Scs-RV-V7K" secondAttribute="top" constant="7" id="z7a-Of-LbT"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Scs-RV-V7K" secondAttribute="trailing" id="1SL-Jb-nO8"/>
+                <constraint firstItem="Scs-RV-V7K" firstAttribute="leading" secondItem="D0U-Kn-usc" secondAttribute="leading" id="NCe-NW-wSm"/>
+                <constraint firstAttribute="bottom" secondItem="Scs-RV-V7K" secondAttribute="bottom" id="SlK-Rh-YWt"/>
+                <constraint firstItem="Scs-RV-V7K" firstAttribute="top" secondItem="D0U-Kn-usc" secondAttribute="top" id="cmg-6l-esR"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="uEo-g0-Xh3"/>
+            <size key="customSize" width="105" height="99"/>
+            <connections>
+                <outlet property="awayTeamImage" destination="kMd-1V-Pya" id="5w4-4f-Ps0"/>
+                <outlet property="awayTeamScore" destination="x7h-5c-QMw" id="TwS-6h-8CD"/>
+                <outlet property="backgroungImage" destination="Dum-F4-Dl4" id="fRE-QM-o7X"/>
+                <outlet property="gameLabel" destination="uMo-Kf-e44" id="rMh-Qv-BEZ"/>
+                <outlet property="homeTeamImage" destination="XOF-rD-nyr" id="Ttl-eM-jtT"/>
+                <outlet property="homeTeamScore" destination="eb1-Zr-KKg" id="Ffi-rH-KSg"/>
+                <outlet property="sportsCellView" destination="Scs-RV-V7K" id="LDY-J3-Dbl"/>
+            </connections>
+            <point key="canvasLocation" x="-272.5" y="-113"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="sport_carousel_bg" width="370" height="208"/>
+    </resources>
+</document>
