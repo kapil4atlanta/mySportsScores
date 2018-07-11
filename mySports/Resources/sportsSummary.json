@@ -1,0 +1,71 @@
+{
+    "id": "114844aa-3c31-4ac7-9afa-0a4f2ae65e0c",
+    "status": "closed",
+    "scheduled": "2017-10-18T23:00:00+00:00",
+    "conference_game": false,
+    "duration": "2:19",
+    "clock": "00:00",
+    "quarter": 4,
+    "home": {
+        "name": "Pacers",
+        "alias": "IND",
+        "market": "Indiana",
+        "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+        "points": 140,
+        "rank": 0,
+        "bonus": true,
+        "reference": "1610612754",
+        "scoring": [{
+            "type": "quarter",
+            "number": 1,
+            "sequence": 1,
+            "points": 29
+        }, {
+            "type": "quarter",
+            "number": 2,
+            "sequence": 2,
+            "points": 36
+        }, {
+            "type": "quarter",
+            "number": 3,
+            "sequence": 3,
+            "points": 41
+        }, {
+            "type": "quarter",
+            "number": 4,
+            "sequence": 4,
+            "points": 34
+        }]
+     },
+    "away": {
+        "name": "Nets",
+        "alias": "BKN",
+        "market": "Brooklyn",
+        "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+        "points": 131,
+        "rank": 0,
+        "bonus": true,
+        "reference": "1610612751",
+        "scoring": [{
+            "type": "quarter",
+            "number": 1,
+            "sequence": 1,
+            "points": 30
+        }, {
+            "type": "quarter",
+            "number": 2,
+            "sequence": 2,
+            "points": 33
+        }, {
+            "type": "quarter",
+            "number": 3,
+            "sequence": 3,
+            "points": 35
+        }, {
+            "type": "quarter",
+            "number": 4,
+            "sequence": 4,
+            "points": 33
+        }]
+     }
+}

@@ -1,0 +1,462 @@
+{
+    "date": "2018-04-01",
+    "league": {
+        "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+        "name": "NBA",
+        "alias": "NBA"
+    },
+    "games": [{
+              "id": "46f45620-d2fc-4153-8dde-67405330baa7",
+              "status": "closed",
+              "coverage": "full",
+              "scheduled": "2018-04-01T17:00:00+00:00",
+              "home_points": 102,
+              "away_points": 119,
+              "track_on_court": true,
+              "reference": "0021701143",
+              "venue": {
+              "id": "a380f011-6e5d-5430-9f37-209e1e8a9b6f",
+              "name": "Spectrum Center",
+              "capacity": 19077,
+              "address": "330 E. Trade St.",
+              "city": "Charlotte",
+              "state": "NC",
+              "zip": "28202",
+              "country": "USA"
+              },
+              "broadcast": {
+              "network": "NBA TV",
+              "satellite": "216"
+              },
+              "home": {
+              "name": "Charlotte Hornets",
+              "alias": "CHA",
+              "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612766"
+              },
+              "away": {
+              "name": "Philadelphia 76ers",
+              "alias": "PHI",
+              "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612755"
+              }
+              }, {
+              "id": "2520549e-f2df-4891-a61b-4a03737658f0",
+              "status": "closed",
+              "coverage": "full",
+              "scheduled": "2018-04-01T19:30:00+00:00",
+              "home_points": 100,
+              "away_points": 83,
+              "track_on_court": true,
+              "reference": "0021701145",
+              "venue": {
+              "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+              "name": "AT&T Center",
+              "capacity": 18418,
+              "address": "1 AT&T Center Parkway",
+              "city": "San Antonio",
+              "state": "TX",
+              "zip": "78219",
+              "country": "USA"
+              },
+              "broadcast": {
+              "network": "ABC"
+              },
+              "home": {
+              "name": "San Antonio Spurs",
+              "alias": "SAS",
+              "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612759"
+              },
+              "away": {
+              "name": "Houston Rockets",
+              "alias": "HOU",
+              "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612745"
+              }
+              }, {
+              "id": "3ecffd21-8840-4999-87c6-20f2d41009f0",
+              "status": "closed",
+              "coverage": "full",
+              "scheduled": "2018-04-01T19:30:00+00:00",
+              "home_points": 104,
+              "away_points": 111,
+              "track_on_court": true,
+              "reference": "0021701146",
+              "venue": {
+              "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+              "name": "Staples Center",
+              "capacity": 19060,
+              "address": "1111 S. Figueroa St.",
+              "city": "Los Angeles",
+              "state": "CA",
+              "zip": "90015",
+              "country": "USA"
+              },
+              "broadcast": {
+              "network": "PRIME",
+              "satellite": "693"
+              },
+              "home": {
+              "name": "Los Angeles Clippers",
+              "alias": "LAC",
+              "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612746"
+              },
+              "away": {
+              "name": "Indiana Pacers",
+              "alias": "IND",
+              "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612754"
+              }
+              }, {
+              "id": "6295ceec-267a-469a-9434-9564345faa92",
+              "status": "closed",
+              "coverage": "full",
+              "scheduled": "2018-04-01T19:30:00+00:00",
+              "home_points": 113,
+              "away_points": 94,
+              "track_on_court": true,
+              "reference": "0021701144",
+              "venue": {
+              "id": "38911649-acfd-551a-949b-68f0fcaa44e7",
+              "name": "United Center",
+              "capacity": 20917,
+              "address": "1901 W Madison St.",
+              "city": "Chicago",
+              "state": "IL",
+              "zip": "60612",
+              "country": "USA"
+              },
+              "broadcast": {
+              "network": "NBCS-CHI",
+              "satellite": "665"
+              },
+              "home": {
+              "name": "Chicago Bulls",
+              "alias": "CHI",
+              "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612741"
+              },
+              "away": {
+              "name": "Washington Wizards",
+              "alias": "WAS",
+              "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612764"
+              }
+              }, {
+              "id": "db741cec-1893-4c2a-b0ef-0ac93c237f25",
+              "status": "closed",
+              "coverage": "full",
+              "scheduled": "2018-04-01T22:00:00+00:00",
+              "home_points": 98,
+              "away_points": 87,
+              "track_on_court": true,
+              "reference": "0021701149",
+              "venue": {
+              "id": "42cddf7a-0e1f-5f91-ae6f-c620582fdb01",
+              "name": "Quicken Loans Arena",
+              "capacity": 20562,
+              "address": "One Center Court",
+              "city": "Cleveland",
+              "state": "OH",
+              "zip": "44115",
+              "country": "USA"
+              },
+              "broadcast": {
+              "network": "FS-OH",
+              "satellite": "660"
+              },
+              "home": {
+              "name": "Cleveland Cavaliers",
+              "alias": "CLE",
+              "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612739"
+              },
+              "away": {
+              "name": "Dallas Mavericks",
+              "alias": "DAL",
+              "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612742"
+              }
+              }, {
+              "id": "22801d0b-1758-460d-a252-f773891483d8",
+              "status": "closed",
+              "coverage": "full",
+              "scheduled": "2018-04-01T22:00:00+00:00",
+              "home_points": 104,
+              "away_points": 109,
+              "track_on_court": true,
+              "reference": "0021701150",
+              "venue": {
+              "id": "6ec47e31-f778-5319-b6c4-3254e076ba0e",
+              "name": "Smoothie King Center",
+              "capacity": 16867,
+              "address": "1501 Girod St.",
+              "city": "New Orleans",
+              "state": "LA",
+              "zip": "70113",
+              "country": "USA"
+              },
+              "broadcast": {
+              "network": "NBA TV",
+              "satellite": "216"
+              },
+              "home": {
+              "name": "New Orleans Pelicans",
+              "alias": "NOP",
+              "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612740"
+              },
+              "away": {
+              "name": "Oklahoma City Thunder",
+              "alias": "OKC",
+              "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612760"
+              }
+              }, {
+              "id": "5e2cbf3a-4ea9-47af-a4af-0c5bb7c4f57c",
+              "status": "closed",
+              "coverage": "full",
+              "scheduled": "2018-04-01T22:00:00+00:00",
+              "home_points": 94,
+              "away_points": 88,
+              "track_on_court": true,
+              "reference": "0021701147",
+              "venue": {
+              "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+              "name": "Philips Arena",
+              "capacity": 19049,
+              "address": "One Philips Drive",
+              "city": "Atlanta",
+              "state": "GA",
+              "zip": "30303",
+              "country": "USA"
+              },
+              "broadcast": {
+              "network": "FS-SE",
+              "satellite": "649"
+              },
+              "home": {
+              "name": "Atlanta Hawks",
+              "alias": "ATL",
+              "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612737"
+              },
+              "away": {
+              "name": "Orlando Magic",
+              "alias": "ORL",
+              "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612753"
+              }
+              }, {
+              "id": "a1acbd1d-c62a-486e-9882-e8e252c77bc0",
+              "status": "closed",
+              "coverage": "full",
+              "scheduled": "2018-04-01T22:00:00+00:00",
+              "home_points": 96,
+              "away_points": 108,
+              "track_on_court": true,
+              "reference": "0021701148",
+              "venue": {
+              "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+              "name": "Barclays Center",
+              "capacity": 17732,
+              "address": "620 Atlantic Avenue.",
+              "city": "Brooklyn",
+              "state": "NY",
+              "zip": "11217",
+              "country": "USA"
+              },
+              "broadcast": {
+              "network": "YES",
+              "satellite": "631"
+              },
+              "home": {
+              "name": "Brooklyn Nets",
+              "alias": "BKN",
+              "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612751"
+              },
+              "away": {
+              "name": "Detroit Pistons",
+              "alias": "DET",
+              "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612765"
+              }
+              }, {
+              "id": "3d98712c-43d2-4c85-b123-48a863365be2",
+              "status": "closed",
+              "coverage": "full",
+              "scheduled": "2018-04-01T23:00:00+00:00",
+              "home_points": 97,
+              "away_points": 121,
+              "track_on_court": true,
+              "reference": "0021701151",
+              "venue": {
+              "id": "7aed802e-3562-5b73-af1b-3859529f9b95",
+              "name": "Target Center",
+              "capacity": 18798,
+              "address": "600 First Ave. North",
+              "city": "Minneapolis",
+              "state": "MN",
+              "zip": "55403",
+              "country": "USA"
+              },
+              "broadcast": {
+              "network": "FS-N",
+              "satellite": "668"
+              },
+              "home": {
+              "name": "Minnesota Timberwolves",
+              "alias": "MIN",
+              "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612750"
+              },
+              "away": {
+              "name": "Utah Jazz",
+              "alias": "UTA",
+              "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612762"
+              }
+              }, {
+              "id": "83f8a11b-5938-4c8b-9f3d-32aeba0f5d58",
+              "status": "closed",
+              "coverage": "full",
+              "scheduled": "2018-04-02T00:00:00+00:00",
+              "home_points": 128,
+              "away_points": 125,
+              "track_on_court": true,
+              "reference": "0021701152",
+              "venue": {
+              "id": "1a28ef88-76c9-5bcc-b4ee-51d30ca98f4f",
+              "name": "Pepsi Center",
+              "capacity": 19155,
+              "address": "1000 Chopper Circle",
+              "city": "Denver",
+              "state": "CO",
+              "zip": "80204",
+              "country": "USA"
+              },
+              "broadcast": {
+              "network": "ALT2",
+              "satellite": "681-1"
+              },
+              "home": {
+              "name": "Denver Nuggets",
+              "alias": "DEN",
+              "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612743"
+              },
+              "away": {
+              "name": "Milwaukee Bucks",
+              "alias": "MIL",
+              "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612749"
+              }
+              }, {
+              "id": "4fea0d42-b213-4aeb-889a-89823f6b1a89",
+              "status": "closed",
+              "coverage": "full",
+              "scheduled": "2018-04-02T00:30:00+00:00",
+              "home_points": 117,
+              "away_points": 107,
+              "track_on_court": true,
+              "reference": "0021701153",
+              "venue": {
+              "id": "e25e21f2-1d67-5f13-910b-81fc8629eea7",
+              "name": "Oracle Arena",
+              "capacity": 19596,
+              "address": "7000 Coliseum Way",
+              "city": "Oakland",
+              "state": "CA",
+              "zip": "94621",
+              "country": "USA"
+              },
+              "broadcast": {
+              "network": "NBCS-BA",
+              "satellite": "696"
+              },
+              "home": {
+              "name": "Golden State Warriors",
+              "alias": "GSW",
+              "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612744"
+              },
+              "away": {
+              "name": "Phoenix Suns",
+              "alias": "PHX",
+              "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612756"
+              }
+              }, {
+              "id": "f964e105-5eb2-4e48-ac81-b94791302512",
+              "status": "closed",
+              "coverage": "full",
+              "scheduled": "2018-04-02T01:00:00+00:00",
+              "home_points": 113,
+              "away_points": 98,
+              "track_on_court": true,
+              "reference": "0021701154",
+              "venue": {
+              "id": "1d1f74a2-7b35-56f0-8cbd-552c51cb2c14",
+              "name": "Moda Center",
+              "capacity": 19393,
+              "address": "1 Center Court",
+              "city": "Portland",
+              "state": "OR",
+              "zip": "97227",
+              "country": "USA"
+              },
+              "broadcast": {
+              "network": "NBCS-NW"
+              },
+              "home": {
+              "name": "Portland Trail Blazers",
+              "alias": "POR",
+              "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612757"
+              },
+              "away": {
+              "name": "Memphis Grizzlies",
+              "alias": "MEM",
+              "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612763"
+              }
+              }, {
+              "id": "f7c5b540-46a4-404c-837c-2bb3ae020482",
+              "status": "closed",
+              "coverage": "full",
+              "scheduled": "2018-04-02T01:30:00+00:00",
+              "home_points": 83,
+              "away_points": 84,
+              "track_on_court": true,
+              "reference": "0021701155",
+              "venue": {
+              "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+              "name": "Staples Center",
+              "capacity": 19060,
+              "address": "1111 S. Figueroa St.",
+              "city": "Los Angeles",
+              "state": "CA",
+              "zip": "90015",
+              "country": "USA"
+              },
+              "broadcast": {
+              "network": "NBA TV",
+              "satellite": "216"
+              },
+              "home": {
+              "name": "Los Angeles Lakers",
+              "alias": "LAL",
+              "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612747"
+              },
+              "away": {
+              "name": "Sacramento Kings",
+              "alias": "SAC",
+              "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+              "reference": "1610612758"
+              }
+              }]
+}
